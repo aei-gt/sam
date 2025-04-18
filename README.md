@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ### SAM
 
 Sistema de Administración Municipal
@@ -31,3 +32,7 @@ Pre-commit is configured to use the following tools for checking and formatting 
 ### License
 
 mit
+=======
+# sam
+Sistema de Administracion de Gobiernos Municipales
+>>>>>>> 0b9bf103fde6152b5add72e986b2fb2151695f16
