@@ -2,7 +2,7 @@ import frappe
 from frappe.custom.doctype.custom_field.custom_field import create_custom_field
 
 def execute():
-
+    frappe.delete_doc("Custom Field","User-gl_password")
     df = dict(fieldname="section_break434", fieldtype="Section Break", label="GL User", insert_after="user_image")
     df1 = dict(fieldname="gl_user", fieldtype="Data", label="GL User", insert_after="section_break434")
     df3 = dict(fieldname="column_break2333", fieldtype="Column Break", insert_after="gl_user")
